@@ -1,7 +1,13 @@
 
-
 body {
     background-color: goldenrod;
+}
+
+.header {
+    width: 100vw;
+    background-image: url("../img/Meydan-One-Mall-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 .workExperience {
