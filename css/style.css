@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: goldenrod;
+}
+
+.workExperience {
+    color: rgb(49, 39, 107);
+}
+
+.education {
+    position: relative;
+    left: 500px;
+    border: 1px solid black;
+    padding: 50px;
+    width: 300px;
+   }
+
+.imgAT {
+    border-radius: 200px; /* Радиус скругления */
+    border: 3px solid black; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+
+
+.Work_Experience {
+    border: 1px solid black;
+    padding: 50px;
+    width: 300px;
+}
+.Skills {
+    border: 1px solid black;
+    padding: 50px;
+    width: 300px;
+}
