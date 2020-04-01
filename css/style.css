@@ -1,20 +1,21 @@
 
-body {
-    background-color: rgba(209, 223, 224, 0.87);
-}
-
-.header {
-    width: 100vw;
+header {
     background-color: white;
     background-repeat: no-repeat;
     background-size: 100vw;
     display: flex;
-    justify-content: flex-start;
-    }
+    justify-content: space-around;    
+    padding: 25px;
+}
 
+.hcont {
+    display: flex;
+    flex-direction: column;    
+}
 
-
-
+body {
+    background-color: rgba(209, 223, 224, 0.87);
+}
 
 main {
     display: flex;
@@ -34,10 +35,33 @@ main {
     border: 1px solid black;
     padding: 50px;
     width: 35vw;
-   }
+}
 
 .imgAT {
-    border-radius: 200px; /* Радиус скругления */
+    border-radius: 100px; /* Радиус скругления */
     border: 3px solid black; /* Параметры рамки */
-    box-shadow: 0 0 7px #666; /* Параметры тени */
+    box-shadow: 0 0 7px #666; /* Параметры тени */    
 }
+
+.workExperience:first-line {
+    color: red;
+}
+
+.skills:first-line {
+    color: red;
+}
+
+.education:first-line {
+    color:red;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: green;
+    font-size: 150%;
+}
+
+
