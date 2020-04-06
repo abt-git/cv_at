@@ -40,8 +40,19 @@ main {
 .imgAT {
     border-radius: 100px; /* Радиус скругления */
     border: 3px solid black; /* Параметры рамки */
-    box-shadow: 0 0 7px #666; /* Параметры тени */    
+    box-shadow: 0 0 7px #666; /* Параметры тени */  
+    
+    position: relative;
+    animation: myfirst 5s linear 2s 2 alternate;
 }
+
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
 
 .workExperience:first-line {
     color: red;
@@ -65,17 +76,10 @@ a:hover {
 }
 
 .socialMedia {
-    
+    margin: 10px;    
+    text-align: center;    
 }
-a {
-    display: inline-block;
-    height: 100px;
-    width: 100px;
-    background: #f1f1f1;
-    margin: 10px;
-    border-radius: 30%;
-    text-align: center;
-}
+
 
 a i {
     color: #0088cc;
